@@ -13,7 +13,11 @@ cd client
 npm i
 ```
 
-3- To run, just hit the ``` npm run dev ``` command in the project path
+3- To run, just hit the ``` npm run dev ``` command in the project path then open http://localhost:3000 in your browser
 
 
 *NOTE* The first and second steps are required for the first setup. In re-run only the third step is enough!
+
+## Screenshot
+
+![اطلاعات لحظه ای بورس تهران و ایران](https://github.com/hamedk9776/exchange-bourse_tehran/blob/main/client/public/assets/images/screencapture.png?raw=true)
