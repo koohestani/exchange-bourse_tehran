@@ -21,3 +21,7 @@ npm i
 ## Screenshot
 
 ![اطلاعات لحظه ای بورس تهران و ایران](https://github.com/hamedk9776/exchange-bourse_tehran/blob/main/client/public/assets/images/screencapture.png?raw=true)
+
+---
+***NOTE This project has been developed
+for personal use and is not a product***
