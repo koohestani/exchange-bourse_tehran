@@ -1,0 +1,6 @@
+export const GET_SYMBOLS = 'GET_SYMBOLS';
+export const SYMBOLS_ERROR = 'SYMBOLS_ERROR';
+export const SET_LOADING = 'SET_LOADING';
+export const REMOVE_LOADING = 'REMOVE_LOADING';
+export const REMOVE_FILTERS = 'REMOVE_FILTERS';
+export const SET_SINGLE_FILTER = 'SET_SINGLE_FILTER';

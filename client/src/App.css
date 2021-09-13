@@ -1,0 +1,165 @@
+/* Animation (Add After) */
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms ease-in;
+}
+
+.my-custom-scrollbar::-webkit-scrollbar {
+  height: 30px;
+  width: 12px;             /* width of the entire scrollbar */
+}
+.my-custom-scrollbar::-webkit-scrollbar-track {
+  background: #fff;        /* color of the tracking area */
+}
+.my-custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #d2dad9;
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #fff;  /* creates padding around scroll thumb */
+}
+
+div.statusTrue {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background-color: #28a745 !important;
+  text-align: center;
+}
+
+div.statusFalse {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background-color: #dc3545 !important;
+  text-align: center;
+}
+
+div.filterStatus {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background-color: #d2dad9 !important;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.light-success-bg {
+  background-color: rgba(14, 193, 132, 0.2);
+}
+
+.light-danger-bg {
+  background-color: rgba(219, 66, 66, 0.2);
+}
+
+.main_section {
+  box-shadow: 0 0 1rem rgba(0,0,0,.15);
+  margin-top: 10px;
+  padding: 0 5px;
+  border-radius: 5px;
+  max-height: 95vh;
+  height: 95vh;
+  overflow-y: scroll;
+}
+
+.main_section table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.exchange-table {
+  position: relative;
+}
+
+.exchange-table thead {
+  padding: 5px 10px;
+}
+
+.exchange-table thead tr th {
+  background-color: #393e46;
+  color: #fff;
+  position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+.exchange-table tbody tr:nth-child(even) {
+  background-color: rgba(227, 232, 241, .5);
+}
+
+.exchange-table tbody tr:hover {
+  background-color: #d2dad9;
+}
+
+.exchange-table thead tr th {
+  font-size: 12px;
+  padding: 15px 12px;
+  text-align: center;
+  color: #fff;
+}
+
+.exchange-table thead tr th:first-child {
+  border-top-right-radius: 15px;
+}
+
+.exchange-table thead tr th:last-child {
+  border-top-left-radius: 15px;
+}
+
+.exchange-table tbody tr {
+  font-size: 14px;
+  text-align: center;
+  color: #393e46;
+}
+
+.exchange-table tbody tr th,
+.exchange-table tbody tr td {
+  padding: 10px;
+}
+
+.main_section .main_section--title {
+  background-color: #393e46;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+.filter_section--item {
+  border-bottom: .1px dashed #393e46;
+}
+
+.filter_section--item .filter_item--info {
+  max-width: 67%;
+}
+
+.filter_section--item label{
+  font-size: 14px;
+  letter-spacing: -0.5px;
+}
+
+.filter_section--item .custom-input.number
+ {
+  background-color: rgba(227, 232, 241, .5);
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #d2dad9 !important;
+}
+
+.filter_section--item input[type="number"]:focus {
+  border: 1px solid #d2dad9 !important;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
